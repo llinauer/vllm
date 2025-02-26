@@ -141,7 +141,7 @@ RUN if [ "$RUN_WHEEL_CHECK" = "true" ]; then \
 #################### EXTENSION Build IMAGE ####################
 
 #################### DEV IMAGE ####################
-FROM base as dev
+FROM base AS dev
 
 COPY requirements-lint.txt requirements-lint.txt
 COPY requirements-test.txt requirements-test.txt
